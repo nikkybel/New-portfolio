@@ -1,0 +1,44 @@
+@media screen and (max-width: 1200px){
+#desktop-nav{
+    display: none;
+
+}
+#hamburger-nav{
+    display: flex;
+
+}
+}
+
+ @media screen and (max-width: 768px) {
+  .contact-container {
+    padding: 30px 20px;
+  }
+
+  .contact-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 20px 15px;
+  }
+
+  .contact-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container p {
+    font-size: 0.95rem;
+  }
+
+  .contact-form button {
+    font-size: 0.95rem;
+    padding: 12px;
+  }
+}   
